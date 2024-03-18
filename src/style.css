@@ -1,0 +1,61 @@
+Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b0ababe7;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.title{
+    margin-left: 8%;
+}
+.navButton{
+    margin-right: 8%;
+}
+body{
+    background-color: #e147e19a;
+}
+.pesquisa{
+    margin-bottom: 20px;
+}
+img{
+    min-width: 30%;
+    max-width: 50%;
+    border-radius: 50%;
+}
+.pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+.infoPessoal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infoPessoal h1{
+    margin: 0;
+}
+.infoGeral{
+    display: flex;
+    justify-content: center;
+}
+.infoGeral h4{
+    margin-left: auto;
+    margin-right: auto;
+}
+.infoNum{
+    display: flex;
+    justify-content: space-around;
+}
+.infoNum h3{
+    margin: 0;
+}
+.repos, .following, .followers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
