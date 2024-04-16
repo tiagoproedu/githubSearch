@@ -1,5 +1,5 @@
+import Botoes from "./Botoes";
 import AppRoutes from "./Routes";
-
 
 function App() {
   return (
